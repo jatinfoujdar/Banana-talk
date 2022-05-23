@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Serif', serif;
+    box-sizing: border-box;
+
+}
+:root{
+    --primary-color:#334155;
+    --secondary-color:#334155;
+    --background-color:#2cfe02;
+}
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+.navigation{
+    background-color: var(--primary-color);
+    color: rgb(8, 249, 0);
+    padding:0.5rem 1rem;
+    border-bottom-left-radius: 1rem;
+    height: 7vh;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: 1%;
+}
+textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 20vh;
+    text-align: center;
+    font-size: large;
+    border: 1px solid black;
+}
+#btn-translate{
+    text-align: center; 
+    display: block; 
+    padding: 0.5rem 0.5rem;
+    margin: 1rem auto;
+    font-size: large;
+    background-color: var(--secondary-color);
+    border: 1px solid rgb(180, 180, 170);
+    border-radius: 5px;
+}
+
+#txt-translated{
+    text-align: center;
+    display: block;
+    margin: 1rem 0.5rem;
+}
+
+#output{
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 15vh;
+    text-align: center;
+}
+.footer{
+    margin-top: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    background-color: var(--primary-color);
+    color: rgb(21, 254, 4);
+    border-top-right-radius: 1rem;
+}
